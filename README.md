@@ -26,8 +26,8 @@ This project uses the **FloodNet** dataset (Rahnemoonfar et al., 2021), an open-
 Standard preprocessing and data augmentation were applied.
 
 ## Approach
-- High-capacity **teacher model** trained for accurate segmentation
-- Compact **student model** optimized for efficiency
+- High-capacity **teacher model(PSPNet)** trained for accurate segmentation
+- Compact **student model(MobileNet)** optimized for efficiency
 - Knowledge distillation using soft targets from the teacher
 - Evaluation of accuracy vs. computational efficiency trade-offs
 
